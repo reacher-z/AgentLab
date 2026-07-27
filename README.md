@@ -65,6 +65,12 @@ AgentLab Features:
 | [OSWorld](https://os-world.github.io/) | [setup](https://github.com/ServiceNow/AgentLab/blob/main/src/agentlab/benchmarks/osworld.md) | 369 | None | - | - | self hosted  | soon |
 | [TimeWarp](https://timewarp-web.github.io/) | [setup](https://github.com/sparklabutah/timewarp) | 1386 | None | 30 | yes | self hosted | soon |
 
+## 📎 External live-web benchmarks
+
+The following independent benchmark is useful for evaluating web and computer-use agents, but is not currently integrated with or supported by AgentLab:
+
+* **[ClawBench](https://github.com/reacher-z/ClawBench)** — [paper](https://arxiv.org/abs/2604.08523) and [project page](https://claw-bench.com/). It evaluates agents on 283 tasks across 163 live platforms using isolated browser sessions, request-level outcome checks, and recorded action, screenshot, network, and message traces. See the project's own [runner and setup instructions](https://github.com/reacher-z/ClawBench#readme) for execution details. Task definitions are available on [Hugging Face](https://huggingface.co/datasets/NAIL-Group/ClawBench) and mirrored at [TIGER-Lab/ClawBench](https://huggingface.co/datasets/TIGER-Lab/ClawBench).
+
 
 ## 🛠️ Setup AgentLab
 
